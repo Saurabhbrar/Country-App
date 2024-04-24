@@ -1,0 +1,43 @@
+#parent{
+    
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 50px;
+    padding: 5px;
+    background-color:#ffffff;
+    
+}
+.cards{
+    height: 200px;
+    width: 80%;
+    
+    border-radius: 20px;
+    background-color: #b2cff3; 
+    margin: auto;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    
+    
+}
+h2{
+    color: #01453f;
+    text-align: center;
+    font-weight: 500;
+}
+
+#extra{
+    text-align: center; 
+    height: 50px;
+    width: 50%;
+    
+    margin: auto;
+
+}
+#extra>button{
+    text-align: center;
+    height: 100%;
+    width: 100%;
+    font-size: 20px;
+    border-radius: 10px;
+    box-shadow: rgba(112, 41, 41, 0.35) 0px 5px 15px;
+    
+}
